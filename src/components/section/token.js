@@ -44,7 +44,6 @@ export function Token() {
                                 </h3>
                             </div>    
                         </div>
-                        <p className="bottom-space" />
                         <div className="row">
                             <div className='col' style={{width:'50%'}}>
                                 <h3>
@@ -55,7 +54,7 @@ export function Token() {
                             <img className="img-width" src="assets/img/Terrazzo1.jpg" alt="" />
                             </div>                            
                         </div>
-                        <p className="bottom-space-md" />
+                        <p className="bottom-space-sm" />
                         <div className="row">
                             <div className='col' style={{width:'50%'}}>
                             <img className="img-row" src="assets/img/ChildRoom1.png" alt="" />
@@ -64,22 +63,6 @@ export function Token() {
                             <img className="img-row" src="assets/img/ChildRoom2.png" alt="" />
                             </div>                            
                         </div>
-                        <p className="bottom-space-md" />
-
-                        <div className="row" style={{ flexFlow: "column" }}>
-                                    <h2
-                                        style={{
-                                            fontSize: "25px",
-                                            fontWeight: "300",
-                                            textAlign: "center",
-                                            fontFamily: "Montserrat",
-                                            letterSpacing: "1px",
-                                            lineHeight: "35px",
-                                        }}
-                                    >
-                                        <i>CURIOSITY</i> - IMAGINATION - <b>FRAMING</b> SOLUTIONS
-                                    </h2>
-                                </div>
 						<p className="bottom-space-md" />
                         <div className="row">
                             <div className='col' style={{width:'50%'}}>
@@ -88,12 +71,6 @@ export function Token() {
                             <div className='col' style={{width:'50%'}}>
                             <img className="img-row" src="assets/img/CollectiveHabitat1.png" alt="" />
                             </div>                            
-                        </div>
-                        <p className="bottom-space-md" />
-                        <div className="row">
-                            <div className='col' style={{width:'50%'}}>
-                            <img className="img" src="assets/img/LearningCommons.png" alt="" />
-                            </div>                           
                         </div>
                         <p className="bottom-space-sm" />
                         <div className="row" style={{ flexFlow: "justify" }}>
@@ -112,6 +89,24 @@ export function Token() {
                                         architecture, design, art, landscape, and urban strategies
                                     </h2>
                                 </div>
+                        <p className="bottom-space-md" />
+                        <div className="row">
+                            <div className='col' style={{width:'50%'}}>
+                            <img className="img" src="assets/img/LearningCommons.png" alt="" />
+                            </div>                           
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                            <h3 style={{fontSize: '15px', textAlign: 'center'}}>
+                        Spaces are not stagnant, they modify and adapt with time. We live in a place in time where the dialog is turning into a monologue,
+                        people are loosing access or the feeling of local scale community. There are somethings we can't change but we can adapt as well.Our aim is to reestablish common spaces in collective habbitats.
+                        Our designers, experienced in urban and collective architecture,
+                        ready to transplant their real-life solutions into the digital space of Virtual Reality and
+                        build common spaces for all needs.
+                        
+                    </h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
