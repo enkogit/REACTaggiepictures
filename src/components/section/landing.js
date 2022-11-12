@@ -19,7 +19,7 @@ export function Landing() {
                                             lineHeight: "35px",
                                         }}
                                     >
-                                        <i>AGGIE</i>-<b>DESIGNS</b>
+                                        <i>GOOD</i> IDEAS INTO <b>GREAT</b> DESIGNS
                                     </h2>
                                 </div>
         <div className='row'>

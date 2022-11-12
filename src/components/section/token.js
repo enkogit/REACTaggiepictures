@@ -8,17 +8,6 @@ export function Token() {
                 <div className="token__wrapper">
                     <div className="token__container-card">
 						<p className="bottom-space-sm" />
-                        <div className="row" style={{ flexFlow: "column" }}>
-                            <h2
-                                style={{
-                                    fontSize: "20px",
-                                    fontWeight: "200",
-                                    textAlign: "center",
-                                }}
-                            >
-                                HOME
-                            </h2>
-                        </div>
                         <p className="bottom-space-sm" />
                         <div className="row" style={{ flexFlow: "column" }}>
                             <img className="img-width" src="assets/img/Terrazzo2.jpg"  alt="" />
