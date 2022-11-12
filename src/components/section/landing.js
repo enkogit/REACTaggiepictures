@@ -15,7 +15,7 @@ export function Landing() {
                                             fontWeight: "300",
                                             textAlign: "center",
                                             fontFamily: "Montserrat",
-                                            letterSpacing: "15px",
+                                            letterSpacing: "5px",
                                             lineHeight: "35px",
                                         }}
                                     >
