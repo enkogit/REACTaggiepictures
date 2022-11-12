@@ -71,6 +71,12 @@ img {
   height: 100%;
   width: 100%;
 }
+.row {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: center;
+}
 .container {
   display: flex;
   flex: 0;
