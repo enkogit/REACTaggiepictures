@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom'
 import React, { useRef } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
-import { Home } from './home';
 import { Universe } from './components/universe/universe';
 import { Header } from './components/section/header';
-
+import { Landing } from './components/section/landing';
+import { Token } from './components/section/token';
+import { Footer } from './components/section/footer';
 import './styles.css'
 
 let world = []
@@ -41,13 +42,14 @@ function Dolly() {
   return null
 }
 
-
 function App() {
   return (
     <div className="screen">
       <div className='main'>
       <Header />
-      <Home />
+      <Landing />
+          <Token />
+          <Footer />
           
       </div>
       <div className='canvas darkBg'>
@@ -66,6 +68,4 @@ function App() {
   )
 }
 
-ReactDOM.render((
-    <App /> 
-), document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
