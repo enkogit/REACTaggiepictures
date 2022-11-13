@@ -20,7 +20,7 @@ for (let i = 0; i < 500; i++) {
 function Plane() {
   const planeRef = useRef();
   useFrame(({ clock }) => {
-    const elapsedTime = clock.getElapsedTime();
+    clock.getElapsedTime();
   });
   
   return (
