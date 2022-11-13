@@ -50,9 +50,7 @@ export function Team() {
                   </div>
                 </div>
               </div>
-              <div className='team__container'>
 
-              </div>
       </div>
       
       

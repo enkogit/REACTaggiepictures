@@ -112,9 +112,7 @@ return (
       <p className="bottom-space-md" />
       <div className="row">
          <div className='col' style={{width:'50%'}}>
-            <video width="600" height="auto" autoplay='' loop >
-               <source src='../assets/VR.mp4' type="video/mp4"/>
-            </video>
+
          </div>
          <div className="col" style={{width:'50%', alignItems:'center'}}>
             <img src="assets/VR.png" width="200px" alt="" style={{marginLeft:'0px'}} />
