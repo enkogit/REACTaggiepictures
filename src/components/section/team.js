@@ -1,6 +1,9 @@
 import React from 'react';
 
 export function Team() {
+
+
+
   return (
       <div className='container'>
           <p className="bottom-space-md" />
@@ -24,7 +27,7 @@ export function Team() {
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
                       <img src='assets/example.gif' alt='' width="125px" className='home__hero-img' />
-                      <h3>abc</h3>
+                      <h3></h3>
                       <p style={{textAlign: 'center'}}>Agnieszka - Architect</p>
                       </div>
                     </div>
@@ -33,7 +36,7 @@ export function Team() {
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
                         <img src='assets/example.gif' alt='' width="125px" className='home__hero-img' />
-                        <h3>abc</h3>
+                        <h3></h3>
                         <p>Viktor - Developer</p>
                       </div>
  
@@ -43,7 +46,7 @@ export function Team() {
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
                       <img src='assets/example.gif' alt='' width="125px" className='home__hero-img' />
-                      <h3>abc</h3>
+                      <h3></h3>
                       <p style={{textAlign: 'center'}}>Frank - Designer</p>
                       </div>
                     </div>
