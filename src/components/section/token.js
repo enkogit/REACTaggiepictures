@@ -112,11 +112,12 @@ return (
       <p className="bottom-space-md" />
       <div className="row">
          <div className='col' style={{width:'50%'}}>
-            <video width="600" height="auto" autoPlay loop >
+            <video width="600" height="auto" autoplay='' loop >
                <source src='../assets/VR.mp4' type="video/mp4"/>
             </video>
          </div>
          <div className="col" style={{width:'50%', alignItems:'center'}}>
+            <img src="assets/VR.png" width="200px" alt="" style={{marginLeft:'0px'}} />
          <h3 style={{fontSize: '15px', textAlign: 'center'}}>
          Spaces are not stagnant, they modify and adapt with time. We live in a place in time where the dialog is turning into a monologue,
          people are loosing access or the feeling of local scale community. There are somethings we can't change but we can adapt as well.Our aim is to reestablish common spaces in collective habbitats.
