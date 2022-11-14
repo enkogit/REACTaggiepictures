@@ -26,8 +26,9 @@ export function Landing() {
         <p className="bottom-space-sm" />
         <p style={{fontSize: '20px', margin: '10px 0px 0px 0px', opacity:1}}>↡</p>
 
-        </div>   
+        </div>
         <p className="bottom-space" style={{marginBottom:'400px'}} />
+
         <p className="bottom-space-sm" />
             <div className="row">
                 <div className="col">

@@ -1,12 +1,19 @@
 import ReactDOM from 'react-dom'
 import React, { useRef } from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import { Canvas, useFrame } from 'react-three-fiber'
 import { Universe } from './components/universe/universe';
 import { Header } from './components/section/header';
 import { Landing } from './components/section/landing';
-import { Token } from './components/section/token';
+import { Offer } from './components/section/offer';
 import { Footer } from './components/section/footer';
 import './styles.css'
+import { Team } from './components/section/team';
 
 let world = []
 for (let i = 0; i < 500; i++) {
@@ -21,12 +28,12 @@ for (let i = 0; i < 500; i++) {
 function Plane() {
   const planeRef = useRef();
   useFrame(({ clock }) => {
-    const elapsedTime = clock.getElapsedTime();
+    clock.getElapsedTime();
   });
   
   return (
     <mesh position={[0, 0, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-      <planeBufferGeometry attach="geometry" args={[2500, 2500]} ref={planeRef} />
+      <planeBufferGeometry attach="geometry" args={[1800, 1800]} ref={planeRef} />
       <meshPhongMaterial attach="material" color="#ad0071" flatShading={true} />
     </mesh>
   )
@@ -42,15 +49,17 @@ function Dolly() {
   return null
 }
 
+
 function App() {
+
   return (
     <div className="screen">
       <div className='main'>
       <Header />
       <Landing />
-          <Token />
+          <Offer />
+          <Team />
           <Footer />
-          
       </div>
       <div className='canvas darkBg'>
       <Canvas camera={{ position: [0, 500, 100] }}>
@@ -68,4 +77,9 @@ function App() {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render((
+  <Router>
+    <Switch>
+      <Route exact path="/" component={App} />
+    </Switch>
+  </Router>), document.getElementById('root'))
