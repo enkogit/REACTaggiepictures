@@ -118,6 +118,18 @@ return (
             </div>
          </div>
          <p className="bottom-space-sm" />
+         <div className="row">
+            <div className='col'>
+               <img className="img-row" src="assets/img/w1.jpg" alt="" />
+            </div>
+            <div className='col'>
+               <img className="img-row" src="assets/img/w2.jpg" alt="" />
+            </div>
+            <div className='col'>
+               <img className="img-row" src="assets/img/w3.jpg" alt="" />
+            </div>
+         </div>
+         <p className="bottom-space-sm" />
             <div className="row" style={{ flexFlow: "justify" }} id='vr'>
             <h2
             style={{
