@@ -62,7 +62,7 @@ function App() {
           <Footer />
       </div>
       <div className='canvas darkBg'>
-      <Canvas camera={{ position: [0, 500, 100] }}>
+      <Canvas camera={{ position: [0, 550, 100] }}>
       <Universe />
         <fog attach="fog" args={['#ff6161', 0.002, 1000]} />
         <directionalLight position={[1, 1, 1]} color="#ad0071" />

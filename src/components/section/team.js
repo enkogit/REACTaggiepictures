@@ -50,7 +50,7 @@ export function Team() {
                       <div className="team__container-features">
                         <img src='assets/vik.png' alt='' width="125px" className='home__hero-img' />
                         <h3>Developer</h3>
-                        <p style={{textAlign: 'center', userSelect: "none"}}>Victor Nowizenko</p>
+                        <p style={{textAlign: 'center', userSelect: "none"}}>Victor Nowichenko</p>
                       </div>
                     </div>
                   </div>
