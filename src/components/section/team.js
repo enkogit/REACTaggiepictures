@@ -1,4 +1,5 @@
 import React from 'react';
+import { SocialBanners } from './sub/social_banners';
 
 export function Team() {
   return (
@@ -41,8 +42,9 @@ export function Team() {
                                             lineHeight: "15px",
                                         }}
                                     >
-                                        <i>✉</i>
                                     </h2>
+                                    <SocialBanners />
+                                    <p className="bottom-space-md" />
                                 </div>
                 <div className='team__container'>
                 <div to='' className='team__container-card'>

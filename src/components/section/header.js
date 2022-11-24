@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { TokenBanners } from './sub/token_banners';
+import { SocialBanners } from './sub/social_banners';
 
 
 
@@ -17,6 +18,8 @@ export function Header() {
             </div>
           </div>
           <TokenBanners />
+          <p className="bottom-space-sm" />
+          <SocialBanners />
         </div>
           
         <p className="bottom-space-sm" />
